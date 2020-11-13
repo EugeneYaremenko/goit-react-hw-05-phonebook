@@ -1,0 +1,28 @@
+.list {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  font-size: 18px;
+  width: 70%;
+}
+
+.deleteBtn {
+  padding: 5px 10px;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(233, 103, 103);
+  color: #e7ecf2;
+  border-color: rgb(67, 67, 78);
+}

@@ -1,0 +1,21 @@
+.appear {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+
+.appearActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms linear;
+}
+
+.appearExit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.appearExitActive {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 500ms linear;
+}

@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.addButton {
+  padding: 5px 15px;
+  margin: 0 auto;
+}
+
+.addButton:hover {
+  background-color: rgb(54, 204, 24);
+  color: #e7ecf2;
+  border-color: rgb(67, 67, 78);
+}
